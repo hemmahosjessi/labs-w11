@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from "react";
+import ProfileImage from "./components/ProfileImage";
+import Header from "./components/Header";
+import "./index.css";
 
-function App() {
+const App = () => {
+  const image = "./profile.png";
+  const textColor = { color: "yellow" };
+  const name = "Foxes";
+  const title = 'Get Ready for adventure'
+  const backgroundColor = { backgroundColor: '#151414ee'}
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Header 
+     title = {title}
+     backgroundColor = {backgroundColor}
+     background
+      />
+    <section>
+      <ProfileImage image={image} textColor={textColor} name={name} />;
+    </section>
+    </>
   );
-}
+};
 
 export default App;

@@ -11,3 +11,86 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.profile-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.name {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.profile-img-container {
+  position: relative;
+  width: 200px;
+}
+
+
+.overlay {
+  position: absolute;
+  border-radius: 50%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #000;
+}
+
+.profile-img-container:hover .overlay {
+  opacity: 0.5;
+}
+
+
+.header {
+  height: 500px;
+}
+
+.nav-bar {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  z-index: 4;
+}
+
+a {
+  padding: 2rem;
+  text-decoration: none;
+  color: white;
+  font-family: roboto;
+  font-weight: 700;
+}
+
+
+h1 {
+  color: white;
+  position: absolute;
+  z-index: 5;
+
+
+}
+
+.circle {
+  position: relative;
+  background-color: #DD8723;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  left: 100px;
+  top: -250px;
+  z-index: 3;
+}
