@@ -12,6 +12,7 @@ code {
     monospace;
 }
 
+/* PROFILE  */
 
 .profile-img {
   display: block;
@@ -60,6 +61,8 @@ code {
 }
 
 
+/* HEADER  */
+
 .header {
   height: 450px;
 }
@@ -104,4 +107,50 @@ h1 {
   left: 100px;
   top: -150px;
   z-index: 3;
+}
+
+
+/* CARD  */
+
+.card-container {
+  display: inline-block;
+  padding-left: 120px;
+  padding-bottom: 3rem;
+  width: 40%;
+}
+
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #E5DCCD;
+  padding: 1.5rem;
+}
+
+/* .image-container {
+  width: 
+} */
+
+.image {
+  display: block;
+  margin: 0;
+}
+
+.date-number {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+h3 {
+  font-size: 48px;
+  font-family: rosarivo;
+  font-weight: 100;
+  color: #333;
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+p {
+  margin: 0;
 }
