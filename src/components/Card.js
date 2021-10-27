@@ -3,9 +3,7 @@ import React from "react";
 const Card = ({ cardTitle, cardImage, date, number }) => {
   return (
     <div className="card-container">
-        <div className='image-container'>
-            <img className='image' src={cardImage} alt="card-image" ></img>
-        </div>
+        <img className='image' src={cardImage} alt="card-image" ></img>
         <div className='text-container'>
             <div className='date-number'>
                 <p>{date}</p>
