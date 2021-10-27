@@ -5,9 +5,9 @@ import "./index.css";
 
 const App = () => {
   const image = "./profile.png";
-  const textColor = { color: "yellow" };
-  const name = "Foxes";
-  const title = 'Get Ready for adventure'
+  const textColor = { color: "#EBFF00" };
+  const name = "Linus Ekenstam";
+  const title = 'Get ready for adventure'
   const backgroundColor = { backgroundColor: '#151414ee'}
 
   return (

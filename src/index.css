@@ -20,8 +20,9 @@ code {
 }
 
 .name {
-  color: white;
-  font-size: 20px;
+  font-family: montserrat;
+  font-weight: 700;
+  font-size: 32px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -29,11 +30,14 @@ code {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+  margin: 0;
 }
 
 .profile-img-container {
   position: relative;
   width: 200px;
+  margin-left: 120px;
+  margin-top: 64px;
 }
 
 
@@ -52,12 +56,12 @@ code {
 }
 
 .profile-img-container:hover .overlay {
-  opacity: 0.5;
+  opacity: 0.6;
 }
 
 
 .header {
-  height: 500px;
+  height: 450px;
 }
 
 .nav-bar {
@@ -80,6 +84,13 @@ h1 {
   color: white;
   position: absolute;
   z-index: 5;
+  font-family: charter;
+  font-size: 72px;
+  line-height: 80px;
+  font-weight: 600;
+  max-width: 600px;
+  padding-left: 120px;
+  padding-top: 100px;
 
 
 }
@@ -87,10 +98,10 @@ h1 {
 .circle {
   position: relative;
   background-color: #DD8723;
-  width: 500px;
-  height: 500px;
+  width: 50vh;
+  height: 50vh;
   border-radius: 50%;
   left: 100px;
-  top: -250px;
+  top: -150px;
   z-index: 3;
 }
